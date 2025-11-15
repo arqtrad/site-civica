@@ -1,0 +1,9 @@
+[submodule "src/_data/schemata"]
+	path = src/_data/schemata
+	url = git@github.com:arqtrad/schemata.git
+[submodule "tools"]
+	path = tools
+	url = git@github.com:arqtrad/site-tools.git
+[submodule "src/w"]
+	path = src/w
+	url = 
