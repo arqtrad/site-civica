@@ -6,4 +6,4 @@
 	url = git@github.com:arqtrad/site-tools.git
 [submodule "src/w"]
 	path = src/w
-	url = 
+	url = git@github.com:arqtrad/civica.git

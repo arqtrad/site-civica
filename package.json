@@ -1,16 +1,16 @@
 {
-	"name": "casa",
+	"name": "site-civica",
 	"version": "1.0.0",
-	"description": "Casas tradicionais luso-brasileiras",
+	"description": "Documentário da arquitetura cívica tradicional luso-brasileira",
 	"keywords": [
-		"casa",
+		"arquitetura cívica",
 		"galeria",
 		"base de dados",
 		"arquitetura tradicional"
 	],
 	"author": "Pedro P. Palazzo",
 	"license": "CC_BY-SA",
-	"repository": "arqtrad/casa",
+	"repository": "arqtrad/site-civica",
 	"main": "index.js",
 	"scripts": {
 		"11ty": "npx @11ty/eleventy",

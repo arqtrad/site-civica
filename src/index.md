@@ -1,24 +1,40 @@
 ---
-title: "Casa tradicional luso-brasileira"
+title: "Arquitetura cívica tradicional luso-brasileira"
 description: >
-  Documentário da arquitetura doméstica publicada na bibliografia de referência
+  Documentário da arquitetura cívica publicada na bibliografia de 
+  referência
 layout: "layouts/splash.njk"
-locale: "pt-BR"
+locale: "pt-PT"
 classes:
   - "splash"
   - "wide"
 header:
-  overlay_image: "https://i.pinimg.com/originals/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg"
-  overlay_filter: 0.7
-  caption: "Abigail de Andrade, Estrada do Mundo Novo, 1888"
-# triptych: especiais
+  overlay_image: "https://i.pinimg.com/originals/f8/3e/fb/f83efb2810cb7ae3e05ca3a47afbf7ee.jpg"
+  filter: 0.5
+  caption: "Antiga sede do Arquivo Nacional à praça da República, 1905"
+triptych:
+  - image_path: https://placehold.co/210x210/png
+    title     : "Monumentalidade"
+    excerpt   : "Um resumo aqui"
+    url       : /monumentalidade/
+    btn_class : "btn-primary"
+  - image_path: https://placehold.co/210x210/png
+    title     : "Neocolonial"
+    excerpt   : "Transposição de motivos religiosos para a arquitetura cívica neocolonial"
+    url       : /neocolonial/
+    btn_class : "btn-primary"
+  - image_path: https://placehold.co/210x210/png
+    title     : "Projetos ideais"
+    excerpt   : "Obras cívicas não realizadas"
+    url       : /ideal/
+    btn_class : "btn-primary"
 templateEngineOverride: njk,md
 ---
 
 # Coleções especiais # {.wide}
 
 ```{=html}
-{% include "partials/triptych.njk" %}
+{# {% include "partials/triptych.njk" %} #}
 ````
 
 # {{ schemata.ui_text[locale].recent_posts }} # {.mb-4 .wide}
