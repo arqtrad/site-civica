@@ -1,20 +1,20 @@
 # Site Settings
 locale                   : "pt-BR"
-title                    : "Casa"
+title                    : "Arquitetura cívica"
 title_separator          : "-"
 subtitle                 : "tradicional luso-brasileira"
 name                     : "Pedro P. Palazzo & equipe"
 description: >-
   Documentário da arquitetura cívica publicada na bibliografia de
   referência.
-url                      : "https://casa.tradicional.arq.br"
+url                      : "https://arquitetura-civica.tradicional.arq.br"
 baseurl                  : 
-repository               : "arqtrad/casa"
+repository               : "arqtrad/arquitetura-civica"
 teaser                   : "https://i.pinimg.com/564x/f7/76/49/f7764902ee90d4fc48b6f795307bc366.jpg"
 masthead_title           : 
 breadcrumbs              : true
 words_per_minute         : 200
-defaultCollection        : 'casa'
+defaultCollection        : 'w'
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -64,7 +64,7 @@ footer:
   links:
     - label: "E-mail"
       icon : "bi bi-envelope"
-      url  : "mailto:labeurbe@unb.br"
+      url  : "mailto:doc.mod@unb.br"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -77,5 +77,5 @@ footer:
       target: "_blank"
     - label: "GitHub"
       icon : "bi bi-github"
-      url  : "https://github.com/arqtrad/casa"
+      url  : "https://github.com/arqtrad/arquitetura-civica"
       target: "_blank"

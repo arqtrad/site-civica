@@ -4,13 +4,14 @@ description: >
   Documentário da arquitetura cívica publicada na bibliografia de 
   referência
 layout: "layouts/splash.njk"
-locale: "pt-PT"
+lang: "pt-PT"
 classes:
   - "splash"
   - "wide"
 header:
+  teaser       : "https://tradicional.arq.br/media/an-teaser.jpg"
   overlay_image: "https://i.pinimg.com/originals/f8/3e/fb/f83efb2810cb7ae3e05ca3a47afbf7ee.jpg"
-  filter: 0.5
+  overlay_filter: 0.5
   caption: "Antiga sede do Arquivo Nacional à praça da República, 1905"
 triptych:
   - image_path: https://placehold.co/210x210/png
@@ -32,6 +33,10 @@ templateEngineOverride: njk,md
 ---
 
 # Coleções especiais # {.wide}
+
+::: text-center
+Em breve.
+:::
 
 ```{=html}
 {# {% include "partials/triptych.njk" %} #}
